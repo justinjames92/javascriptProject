@@ -1,12 +1,34 @@
-.header {
-  background-color: black;
-}
-.header a {
+.optionColor label {
   color: white;
-  text-decoration: none;
 }
-.header a:hover {
+.optionBox input {
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.navbar a {
   color: white;
-  text-decoration: none;
 }
-/* .header a, .header a:hover{} */
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: white;
+}
+.footer span {
+  color: rgb(73, 72, 72);
+}
+.footer label {
+  color: white;
+  padding: 20, 0;
+}
+@media (min-width: 568px) and (max-width: 798px) {
+  .navbar .navbar-nav {
+    text-align: center;
+    padding-top: 3%;
+  }
+}
+@media (min-width: 568px) and (max-width: 798px) {
+  .alignImages {
+    padding: 5px, 0px;
+  }
+}

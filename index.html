@@ -9,6 +9,9 @@
     <!-- bootStrapCSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
     <!-- style -->
     <link rel="stylesheet" href="style.css">
     <!-- javaScript -->
@@ -16,28 +19,106 @@
 </head>
 
 <body>
-    <section class="header">
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container ">
-                <a class="navbar-brand" href="#">GIPHY Search API</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+    <nav class="navbar navbar-expand-lg  bg-dark ">
+        <div class="container">
+            <a class="navbar-brand mx-auto " href="#">GIPHY Search API</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class=" navbar-dark navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse float-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Search</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class=" optionColor optionBox ">
+        <div class="container-fluid bg-dark bg-gradient">
+            <div class="row  py-3  ">
+
+                <div class="col-md-6 col-sm-12 ">
+                    <div class="text-center">
+                        <label>GIF search:</label><br>
+                        <input type="text" placeholder="" value="simpsons">
                     </div>
                 </div>
+
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="text-center">
+                        <label>No. of GIFs :</label><br>
+                        <input type=number placeholder="" value=30>
+                    </div>
+
+                </div>
+
             </div>
-        </nav>
+        </div>
     </section>
     <section>
+        <div class="container-fluid bg-dark bg-gradient ">
+            <div class=" px-5 py-3">
+                <div class="row alignImages">
+                    <div class="col-md-3 col-sm-12">
 
+                        <img src="/images/flowers-g9f25b2e33_1920.jpg" width="100%">
+                    </div>
+                    <div class="col-md-3 col-sm-12 mb-3">
+                        <img src="/images/flowers-g9f25b2e33_1920.jpg" width="100%">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <img src="/images/flowers-g9f25b2e33_1920.jpg" width="100%">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <img src="/images/flowers-g9f25b2e33_1920.jpg" width="100%">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+
+                        <img src="/images/flowers-g9f25b2e33_1920.jpg" width="100%">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <img src="/images/flowers-g9f25b2e33_1920.jpg" width="100%">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <img src="/images/flowers-g9f25b2e33_1920.jpg" width="100%">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <img src="/images/flowers-g9f25b2e33_1920.jpg" width="100%">
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </section>
+    <div class="container-fluid">
+        <div class="bg-dark footer text-center">
+            <div class="row  ">
+                <div class="col-md-12 col-sm-12">
+                    <label> <span>
+                            POWERED BY </span> <img src="/images/GIPHY ICON.png" width="45" height="45"> GIPHY
+                    </label>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
 
 </body>
 
